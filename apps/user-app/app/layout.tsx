@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import RecoilRootProvider from "../utils/recoilRootprovider";
+import RecoilRootProvider from "../recoilRootprovider";
 
 const geistSans = localFont({
 	src: "./fonts/GeistVF.woff",
